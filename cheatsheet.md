@@ -1,4 +1,4 @@
-# Python syntax Cheatsheet
+# Python Cheatsheet
 
 ### Depurador
 
