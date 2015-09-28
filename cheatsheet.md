@@ -21,11 +21,12 @@ Para pasar de versiones 2.x a 3.x: `script 2to3.py`
 ***
 
 División real: a/b
+
 División entera: a//b
 
-Cambio de base: oct(), bin(), hex()
+Cambio de base: 'oct()', 'bin()', 'hex()'
 
-*Conjuntos*
+**Conjuntos**
 
 ```python
 new_set = set('1234')
