@@ -3,8 +3,12 @@
 ### Depurador
 
 Dentro del codigo:
-> import pdb
-> pdb.set_trace()
+'''python
+import pdb
+pdb.set_trace()
+'''
 
 Fuera del código:
-> python -m pdb code.py
+'''python
+python -m pdb code.py
+'''
