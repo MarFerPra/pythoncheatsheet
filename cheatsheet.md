@@ -46,3 +46,18 @@ lineas."""
 byte_data = b"cadena de tipo byte"
 bytearray_data = bytearray("España", "utf16")
 ```
+
+De 'string' a 'byte': encode()
+De 'byte' a 'string': decode()
+
+**Funciones y métodos para strings**
+
+```python
+cadena = "Don't panic!"
+len(cadena) # número de caracteres
+print(cadena)
+cadena.find("panic")  # devuelve el indice del comienzo de la cadena buscada, -1 en caso de no encontrarla.
+cadena = cadena.replace("Don't", "You should") # substitución del primer argumento por el segundo.
+
+
+
