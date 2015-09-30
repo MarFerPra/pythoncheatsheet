@@ -75,3 +75,12 @@ cadena.join(",") # Resultado: 'Life,the universe,and,everything.'
 ```
 
 Concatenación con "+"
+Usando '.format()': "This {0} a {1}".format("is","string")
+Paso de string a int y viceversa: int(<variable_string>), str(<variable-int>).
+
+Acceso usando índices: 
+```python
+cadena = "01234"
+print(cadena[3]) # resultado '3'
+print(cadena[:3]) # resultado '012'
+```
