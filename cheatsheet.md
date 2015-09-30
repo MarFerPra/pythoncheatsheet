@@ -54,15 +54,24 @@ De 'byte' a 'string': decode()
 
 ```python
 cadena = "Don't panic!"
-len(cadena) # número de caracteres
 print(cadena)
+len(cadena) # número de caracteres
+
+
 cadena.find("panic")  # Devuelve el indice del comienzo de la cadena buscada, -1 en caso de no existir.
 cadena = cadena.replace("Don't", "You should") # Substitución del primer argumento por el segundo.
+
 cadena.strip() # Elimina espacios en blanco al inicio y al final
 cadena.lstrip() # Left strip
 cadena.rstrip() # Right strip
+
 cadena.upper() # Paso a mayúsculas
 cadena.lower() # Paso a minúsculas
 cadena.capitalize() # Inicia la cadena con una mayúscula
 
+cadena = "Life-the universe-and-everything."
+cadena.split("-") # Resultado: ['Life','the universe','and','everything.']
+cadena.join(",") # Resultado: 'Life,the universe,and,everything.'
+```
 
+Concatenación con "+"
