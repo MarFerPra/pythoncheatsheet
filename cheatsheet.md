@@ -80,9 +80,22 @@ Usando '.format()': "This {0} a {1}".format("is","string")
 
 Paso de string a int y viceversa: int(<variable_string>), str(<variable-int>).
 
-Acceso usando índices: 
+Acceso usando índices:
 ```python
 cadena = "01234"
 print(cadena[3]) # resultado '3'
 print(cadena[:3]) # resultado '012'
+```
+
+**Listas**
+
+```python
+  lista = [0,1,2,3,4,5]
+  lista.append(5) #Añade el elemento al final de la lista. Resultado:  [0,1,2,3,4,5,6]
+  lista.insert(2,7) #Añade un elemento en la posición i. Resultado: [0,1,7,2,3,4,5]
+  list.remove(2) #Elimina el primer elemento que tiene el valor que le damos. Resultado: [0,1,3,4,5]
+  list.index(3) #Devuelve el índice del primer elemento que se encuntra con el valor dado. Resultado: 3
+  list.count(3) #Devuelve el número de veces que se repite el valor que se le da. Resultado: 1
+  list.sort() #Ordena la lista, le podemos añadir keys. Resultado: lista, que se encuentra ordenada.
+  list.reverse() #Invierte el orden de la lista. Resultado: [5,4,3,2,1,0]
 ```
